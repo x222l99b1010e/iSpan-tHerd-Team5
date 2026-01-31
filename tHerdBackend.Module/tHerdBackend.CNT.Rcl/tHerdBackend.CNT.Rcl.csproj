@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <UserSecretsId>8b08e92c-9920-4beb-a92c-c346fed309dc</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
