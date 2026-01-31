@@ -77,6 +77,10 @@ namespace tHerdBackend.SharedApi
 			var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
 	?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
+			Console.WriteLine(
+	builder.Configuration.GetConnectionString("DefaultConnection")
+);
+
 			//與後台管理系統共用 Identity 使用者資料庫
 			// === Identity 使用者資料庫（與後台共用） ===
 			builder.Services.AddDbContext<ApplicationDbContext>(options =>
